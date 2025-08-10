@@ -39,12 +39,12 @@ class Employe:
             salaire = self.salaire + (self.salaire * 10) / 100
         return int(salaire)
 
-matricule = input("Matricule         : ")
-nom       = input("Nom               : ")
-prenom    = input("Prenom            : ")
-dateN     = input("Date de naissance : ")
-dateE     = input("Date d'embauche   : ")
-salaire   = int(input("Salaire           : "))
+matricule = input("Matricule                : ")
+nom       = input("Nom                           : ")
+prenom    = input("Prenom                        : ")
+dateN     = input("Date de naissance (dd/mm/YYY) : ")
+dateE     = input("Date d'embauche (dd/mm/YYY)   : ")
+salaire   = int(input("Salaire                       : "))
 employe = Employe(matricule, nom, prenom, dateN, dateE, salaire)
 
 print("......................................")
